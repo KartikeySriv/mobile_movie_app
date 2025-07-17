@@ -3,7 +3,7 @@ import React from 'react'
 
 const search = () => {
   return (
-    <View>
+    <View className='flex-1 bg-primary'>
       <Text>search</Text>
     </View>
   )
