@@ -46,7 +46,7 @@ const Search = () => {
       searchQuery.trim() &&
       Array.isArray(movies) &&
       movies.length > 0 &&
-      movies[0]
+      movies[0] 
     ) {
       updateSearchCount(searchQuery, movies[0]);
     }
